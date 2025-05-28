@@ -47,7 +47,7 @@ def get_gemini_response(input, image, prompt):
         st.error(f"Error analyzing image: {str(e)}")
         return None
 
-
+st.set_page_config(page_title="Food Scan")
 
 st.header('Food Scan with Google Gemini')
 input = st.text_input("Input prompt: ", key='input')
