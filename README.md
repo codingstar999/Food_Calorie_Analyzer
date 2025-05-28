@@ -1,11 +1,11 @@
-# 🍔 Food Calorie Analyzer using Google Gemini API
+# 🍔 Food Calorie Analyzer using Google Gemini API and Huggingface opensource model
 
 This project uses the power of **Google's Gemini Vision API** to analyze food images and estimate the total calorie count. Upload any image containing food, and the script will identify the items and return an approximate calorie value based on a local lookup.
 
 ---
 
 
-https://github.com/user-attachments/assets/e6a1c0a3-8c00-42ac-8212-83569bb93fac
+https://github.com/user-attachments/assets/c35425bc-4b83-4fe1-8990-cff06c4ca6eb
 
 
 ## 🚀 Features
@@ -39,6 +39,6 @@ https://github.com/user-attachments/assets/e6a1c0a3-8c00-42ac-8212-83569bb93fac
 ## 🔧 Setup
 
 ```bash
-git clone https://github.com/yourusername/food-calorie-analyzer.git
-cd food-calorie-analyzer
+git clone https://github.com/codingstar999/Food_Calorie_Analyzer.git
+cd Food_Calorie_Analyzer
 pip install -r requirements.txt
