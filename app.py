@@ -39,13 +39,7 @@ def input_image_details(uploaded_file):
     else:
         raise FileNotFoundError("No file uploaded")
     
-def get_gemini_response(input, image, prompt):
-    try:
-        response = model.generate_content([input, image[0], prompt]) 
-        return response.text
-    except Exception as e:
-        st.error(f"Error analyzing image: {str(e)}")
-        return None
+
 
 st.set_page_config(page_title="Food Scan")
 
