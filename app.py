@@ -35,7 +35,7 @@ def input_image_details(uploaded_file):
             }
         ]
 
-        
+        return image_parts
     else:
         raise FileNotFoundError("No file uploaded")
     
